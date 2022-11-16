@@ -1,0 +1,489 @@
+.add_btn {
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+
+
+
+.ems {
+  text-align: center;
+  text-decoration-line: underline;
+  padding-bottom: 10px;
+}
+
+.Main {
+  background-color: lightgrey;
+}
+/* 
+.container {
+  overflow: auto;
+  
+
+} */
+.box{
+  padding-top: 10px;
+}
+
+.select{
+  font-weight: 500;
+}
+
+.logo {
+  size-adjust: 100px;
+}
+
+.container-fluid {
+  background-color: white;
+
+}
+
+.nav-item {
+  font-size: 20px;
+  padding-left: 50px;
+
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-item:active {
+  font-weight: bold;
+  color: black;
+}
+
+.addbuttons{
+margin-right: 10px;}
+
+
+.nav-item1 {
+  font-size: 20px;
+  padding-left: 50px;
+  text-decoration: solid;
+
+
+}
+
+.nav-item1:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+ul .dropdown-menu{
+margin: 0;
+padding: 0;
+/* justify-content: center; */
+/* float: right ; */
+/* display: inline-block; */
+}
+
+li.dropdown-item{
+  text-align: center;
+}
+
+
+.title {
+  text-align: center;
+}
+
+.adduser {
+  color: white;
+}
+
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.Auth-form {
+  width: 400px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.signup {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+
+
+
+.Auth-form-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Auth-form1 {
+  width: 1300px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content1 {
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.Auth-form-title1 {
+  text-align: left;
+  text-decoration: underline;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.signup1 {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+
+
+.leftview {
+  font-size: 21px;
+  text-align: center;
+}
+
+.rightview {
+  font-size: 21px;
+  text-align: center;
+}
+
+.welcome {
+  text-align: left;
+  padding-bottom: 10px;
+
+}
+
+/*   */
+.name {
+  justify-content: space-between;
+  display: flex;
+}
+
+.backbtn {
+
+  justify-content: space-between;
+  display: flex;
+}
+
+
+body {
+  background-color: #fbfbfb;
+}
+
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+
+.split {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.splitr {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  overflow-x: hidden;
+  padding-top: 20px;
+    padding-right: 20px;
+}
+
+.splittop {
+  height: 80px;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%), 0 2px 10px 0 rgb(0 0 0 / 15%);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+}
+
+/* Control the top side */
+.top {
+  right: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0;
+  /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 250px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+}
+/* ---------------------------------------------------------------Toggle----------------------------------------------------------------------- */
+/* .wrg-toggle {
+  touch-action: pan-x;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrg-toggle-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.wrg-toggle-check,
+.wrg-toggle-uncheck {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+
+.wrg-toggle-check {
+  left: 8px;
+}
+
+.wrg-toggle-uncheck {
+  opacity: 1;
+  right: 10px;
+}
+
+.wrg-toggle-uncheck span,
+.wrg-toggle-check span {
+  align-items: center;
+  display: flex;
+  height: 10px;
+  justify-content: center;
+  position: relative;
+  width: 10px;
+}
+
+.wrg-toggle-container {
+  width: 50px;
+  height: 24px;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #4d4d4d;
+  transition: all .2s ease;
+}
+
+.wrg-toggle-circle {
+  transition: all .5s cubic-bezier(.23, 1, .32, 1) 0ms;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #4d4d4d;
+  border-radius: 50%;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  transition: all .25s ease;
+}
+
+.wrg-toggle--checked .wrg-toggle-check {
+  opacity: 1;
+}
+
+.wrg-toggle--checked .wrg-toggle-uncheck {
+  opacity: 0;
+}
+
+.wrg-toggle--checked .wrg-toggle-circle {
+  left: 27px;
+} */
+
+/* ---------------------------------------------------------------Toggle1----------------------------------------------------------------------- */
+
+/* .container {
+  text-align: center;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 75px;
+  display: inline-block;
+  text-align: left;
+  top: 8px;
+}
+
+.checkbox {
+  display: none;
+}
+
+.label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+}
+
+.inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.inner:before,
+.inner:after {
+  float: left;
+  width: 50%;
+  height: 36px;
+  padding: 0;
+  line-height: 36px;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.inner:before {
+  content: "YES";
+  padding-left: 10px;
+  background-color: #060;
+  color: #fff;
+}
+
+.inner:after {
+  content: "NO";
+  padding-right: 10px;
+  background-color: #bbb;
+  color: #fff;
+  text-align: right;
+}
+
+.switch {
+  display: block;
+  width: 24px;
+  margin: 5px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 40px;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+
+.checkbox:checked+.label .inner {
+  margin-left: 0;
+}
+
+.checkbox:checked+.label .switch {
+  right: 0px;
+} */
